@@ -4,7 +4,21 @@
 			<div class="w-full lg:fixed lg:w-24 h-full bg-blue-800 relative">
 				<a
 					href="#"
-					class="hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:flex lg:justify-center lg:items-center w-14 h-14 rounded-xl hover:bg-white hover:bg-opacity-50"
+					class="
+						hidden
+						absolute
+						top-10
+						left-1/2
+						transform
+						-translate-x-1/2
+						lg:flex
+						lg:justify-center
+						lg:items-center
+						w-14
+						h-14
+						rounded-xl
+						hover:bg-white hover:bg-opacity-50
+					"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -36,19 +50,51 @@
 
 			<div class="overflow-hidden lg:overflow-visible pb-24 lg:pb-0">
 				<div
-					class="transform lg:transform-none transition-all duration-300"
+					class="
+						transform
+						lg:transform-none
+						transition-all
+						duration-300
+					"
 					:class="showSidebar ? '-translate-x-full' : ''"
 				>
 					<div class="flex mt-4 lg:mt-10 lg:space-x-10">
 						<div
-							class="w-full flex-shrink-0 lg:w-3/4 lg:flex-shrink rounded-xl"
+							class="
+								w-full
+								flex-shrink-0
+								lg:w-3/4
+								lg:flex-shrink
+								rounded-xl
+							"
 						>
 							<div class="flex space-x-4 lg:space-x-10">
 								<div
-									class="w-1/3 bg-white shadow-lg border border-gray-100 rounded-xl flex flex-col lg:flex-row items-center px-3 py-5 lg:p-5 space-x-0 lg:space-x-5"
+									class="
+										w-1/3
+										bg-white
+										shadow-lg
+										border border-gray-100
+										rounded-xl
+										flex flex-col
+										lg:flex-row
+										items-center
+										px-3
+										py-5
+										lg:p-5
+										space-x-0
+										lg:space-x-5
+									"
 								>
 									<div
-										class="bg-indigo-50 p-2 rounded-lg text-blue-800 w-full lg:w-auto"
+										class="
+											bg-indigo-50
+											p-2
+											rounded-lg
+											text-blue-800
+											w-full
+											lg:w-auto
+										"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -67,20 +113,51 @@
 									</div>
 									<div>
 										<span
-											class="block uppercase text-xs text-gray-400 tracking-wider font-semibold"
+											class="
+												block
+												uppercase
+												text-xs text-gray-400
+												tracking-wider
+												font-semibold
+											"
 											>Visitors</span
 										>
 										<span
-											class="text-xl lg:text-2xl font-semibold"
+											class="
+												text-xl
+												lg:text-2xl
+												font-semibold
+											"
 											>10,320</span
 										>
 									</div>
 								</div>
 								<div
-									class="w-1/3 bg-white shadow-lg border border-gray-100 rounded-xl flex flex-col lg:flex-row items-center px-3 py-5 lg:p-5 space-x-0 lg:space-x-5"
+									class="
+										w-1/3
+										bg-white
+										shadow-lg
+										border border-gray-100
+										rounded-xl
+										flex flex-col
+										lg:flex-row
+										items-center
+										px-3
+										py-5
+										lg:p-5
+										space-x-0
+										lg:space-x-5
+									"
 								>
 									<div
-										class="bg-indigo-50 p-2 rounded-lg text-blue-800 w-full lg:w-auto"
+										class="
+											bg-indigo-50
+											p-2
+											rounded-lg
+											text-blue-800
+											w-full
+											lg:w-auto
+										"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -105,20 +182,51 @@
 									</div>
 									<div>
 										<span
-											class="block uppercase text-xs text-gray-400 tracking-wider font-semibold"
+											class="
+												block
+												uppercase
+												text-xs text-gray-400
+												tracking-wider
+												font-semibold
+											"
 											>Customers</span
 										>
 										<span
-											class="text-xl lg:text-2xl font-semibold"
+											class="
+												text-xl
+												lg:text-2xl
+												font-semibold
+											"
 											>4,628</span
 										>
 									</div>
 								</div>
 								<div
-									class="w-1/3 bg-red-500 shadow-lg border border-red-500 rounded-xl flex flex-col lg:flex-row items-center px-3 py-5 lg:p-5 space-x-0 lg:space-x-5"
+									class="
+										w-1/3
+										bg-red-500
+										shadow-lg
+										border border-red-500
+										rounded-xl
+										flex flex-col
+										lg:flex-row
+										items-center
+										px-3
+										py-5
+										lg:p-5
+										space-x-0
+										lg:space-x-5
+									"
 								>
 									<div
-										class="bg-red-700 p-2 rounded-lg text-white w-full lg:w-auto"
+										class="
+											bg-red-700
+											p-2
+											rounded-lg
+											text-white
+											w-full
+											lg:w-auto
+										"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -137,25 +245,42 @@
 									</div>
 									<div>
 										<span
-											class="block uppercase text-xs text-red-200 tracking-wider font-semibold"
+											class="
+												block
+												uppercase
+												text-xs text-red-200
+												tracking-wider
+												font-semibold
+											"
 											>Orders</span
 										>
 										<span
-											class="text-xl lg:text-2xl font-semibold text-white"
+											class="
+												text-xl
+												lg:text-2xl
+												font-semibold
+												text-white
+											"
 											>2,980</span
 										>
 									</div>
 								</div>
 							</div>
 
-							<div
-								class="bg-gray-300 rounded-xl h-28 mt-4 lg:mt-10 w-full"
-							></div>
+							<Candlesticks />
 
 							<Blog />
 						</div>
 						<div
-							class="w-full flex-shrink-0 lg:w-1/4 lg:flex-shrink bg-gray-300 rounded-xl h-52"
+							class="
+								w-full
+								flex-shrink-0
+								lg:w-1/4
+								lg:flex-shrink
+								bg-gray-300
+								rounded-xl
+								h-52
+							"
 						>
 							sidebar
 						</div>
@@ -170,10 +295,11 @@
 import MainNav from "./components/MainNav.vue";
 import Tools from "./components/Tools.vue";
 import Blog from "./components/Blog.vue";
+import Candlesticks from "./components/Candlesticks.vue";
 
 export default {
 	name: "App",
-	components: { MainNav, Tools, Blog },
+	components: { MainNav, Tools, Blog, Candlesticks },
 	data: function () {
 		return {
 			showSidebar: false,
