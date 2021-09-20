@@ -11,9 +11,7 @@
 						left-1/2
 						transform
 						-translate-x-1/2
-						lg:flex
-						lg:justify-center
-						lg:items-center
+						lg:flex lg:justify-center lg:items-center
 						w-14
 						h-14
 						rounded-xl
@@ -39,12 +37,83 @@
 		<div class="w-full p-4 lg:p-10">
 			<Tools />
 
-			<div class="bg-gray-300 rounded-xl mt-4 lg:hidden p-2">
+			<div class="mt-4 lg:hidden">
 				<button
-					class="block w-32 h-10 bg-blue-600 mx-auto"
+					class="
+						flex
+						w-32
+						h-10
+						bg-white
+						rounded-lg
+						mx-auto
+						shadow-lg
+						relative
+						focus:outline-none
+					"
 					@click="showSidebar = !showSidebar"
 				>
-					Toggle sidebar
+					<div
+						class="
+							w-16
+							h-full
+							bg-blue-400
+							absolute
+							top-0
+							rounded-lg
+							transform
+							duration-300
+						"
+						:class="showSidebar ? 'translate-x-full' : ''"
+					></div>
+
+					<div
+						class="
+							flex
+							justify-center
+							items-center
+							w-16
+							h-full
+							transform
+							duration-300
+						"
+						:class="showSidebar ? 'text-gray-400' : 'text-white'"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							class="w-6"
+						>
+							<path
+								d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+							/>
+						</svg>
+					</div>
+					<div
+						class="
+							flex
+							justify-center
+							items-center
+							w-16
+							h-full
+							transform
+							duration-300
+						"
+						:class="!showSidebar ? 'text-gray-400' : 'text-white'"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							class="w-6"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</div>
 				</button>
 			</div>
 
@@ -63,8 +132,7 @@
 							class="
 								w-full
 								flex-shrink-0
-								lg:w-3/4
-								lg:flex-shrink
+								lg:w-3/4 lg:flex-shrink
 								rounded-xl
 							"
 						>
@@ -272,17 +340,21 @@
 							<Blog />
 						</div>
 						<div
-							class="
-								w-full
-								flex-shrink-0
-								lg:w-1/4
-								lg:flex-shrink
-								bg-gray-300
-								rounded-xl
-								h-52
-							"
+							class="w-full flex-shrink-0 lg:w-1/4 lg:flex-shrink"
 						>
-							sidebar
+							<div
+								class="
+									bg-indigo-50
+									rounded-xl
+									p-5
+									space-y-10
+									flex flex-col
+								"
+							>
+								<Percentage />
+								<Cards />
+								<Transactions />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -296,10 +368,21 @@ import MainNav from "./components/MainNav.vue";
 import Tools from "./components/Tools.vue";
 import Blog from "./components/Blog.vue";
 import Candlesticks from "./components/Candlesticks.vue";
+import Percentage from "./components/Percentage.vue";
+import Cards from "./components/Cards.vue";
+import Transactions from "./components/Transactions.vue";
 
 export default {
 	name: "App",
-	components: { MainNav, Tools, Blog, Candlesticks },
+	components: {
+		MainNav,
+		Tools,
+		Blog,
+		Candlesticks,
+		Percentage,
+		Cards,
+		Transactions,
+	},
 	data: function () {
 		return {
 			showSidebar: false,
