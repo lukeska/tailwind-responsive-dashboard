@@ -1,21 +1,21 @@
 <template>
 	<div
-		class="md:flex space-y-5 md:space-y-0 md:space-x-5 lg:space-x-10 mt-4 lg:mt-10"
+		class="mt-4 space-y-5 md:flex md:space-y-0 md:space-x-5 lg:space-x-10 lg:mt-10"
 	>
 		<div
-			class="w-full lg:w-1/2 bg-white shadow-lg border border-gray-100 rounded-xl p-5 space-y-5"
+			class="w-full p-5 space-y-5 bg-white border border-gray-100 shadow-lg lg:w-1/2 rounded-xl"
 		>
 			<div class="flex items-center">
-				<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+				<div class="w-10 h-10 mr-3 overflow-hidden rounded-full">
 					<img
-						src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+						src="https://tailwindcss.com/_next/static/media/sarah-dayan.de9b3815.jpg"
 						alt=""
-						class="w-10 h-10 object-cover"
+						class="object-cover w-10 h-10"
 					/>
 				</div>
 				<div>
 					<span class="block leading-3">Lilly Donovan</span>
-					<span class="text-gray-400 text-xs">Business trainer</span>
+					<span class="text-xs text-gray-400">Business trainer</span>
 				</div>
 			</div>
 
@@ -76,12 +76,12 @@
 				</div>
 			</div>
 
-			<div class="flex justify-between items-center">
-				<div class="text-gray-600 font-semibold">5 days ago</div>
+			<div class="flex items-center justify-between">
+				<div class="font-semibold text-gray-600">5 days ago</div>
 
 				<a
 					href="#"
-					class="bg-blue-800 text-white rounded-full hover:bg-red-500 px-4 py-3 flex items-center space-x-3"
+					class="flex items-center px-4 py-3 space-x-3 text-white bg-blue-800 rounded-full hover:bg-red-500"
 				>
 					<span>Connect</span>
 
@@ -103,19 +103,19 @@
 		</div>
 
 		<div
-			class="w-full lg:w-1/2 bg-white shadow-lg border border-gray-100 rounded-xl p-5 space-y-5"
+			class="w-full p-5 space-y-5 bg-white border border-gray-100 shadow-lg lg:w-1/2 rounded-xl"
 		>
 			<div class="flex items-center">
-				<div class="w-10 h-10 rounded-full overflow-hidden mr-3">
+				<div class="w-10 h-10 mr-3 overflow-hidden rounded-full">
 					<img
-						src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+						src="https://tailwindcss.com/_next/static/media/sarah-dayan.de9b3815.jpg"
 						alt=""
-						class="w-10 h-10 object-cover"
+						class="object-cover w-10 h-10"
 					/>
 				</div>
 				<div>
 					<span class="block leading-3">Lilly Donovan</span>
-					<span class="text-gray-400 text-xs">Business trainer</span>
+					<span class="text-xs text-gray-400">Business trainer</span>
 				</div>
 			</div>
 
@@ -176,12 +176,12 @@
 				</div>
 			</div>
 
-			<div class="flex justify-between items-center">
-				<div class="text-gray-600 font-semibold">5 days ago</div>
+			<div class="flex items-center justify-between">
+				<div class="font-semibold text-gray-600">5 days ago</div>
 
 				<a
 					href="#"
-					class="bg-blue-800 text-white rounded-full hover:bg-red-500 px-4 py-3 flex items-center space-x-3"
+					class="flex items-center px-4 py-3 space-x-3 text-white bg-blue-800 rounded-full hover:bg-red-500"
 				>
 					<span>Connect</span>
 

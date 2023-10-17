@@ -1,10 +1,10 @@
 <template>
 	<div
-		class="flex lg:flex-col items-center justify-center h-full space-x-4 lg:space-x-0 lg:space-y-4 py-2 lg:py-4"
+		class="flex items-center justify-center h-full py-2 space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4 lg:py-4"
 	>
 		<a href="#" class="group">
 			<div
-				class="flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 rounded-xl bg-white text-red-500 transform -translate-y-8 lg:-translate-y-0 lg:translate-x-8 duration-300 shadow-xl"
+				class="flex items-center justify-center w-10 h-10 text-red-500 duration-300 transform -translate-y-8 bg-white shadow-xl lg:w-14 lg:h-14 rounded-xl lg:-translate-y-0 lg:translate-x-8"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -20,13 +20,13 @@
 		</a>
 		<a href="#" class="group">
 			<div
-				class="flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-50 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 transform group-hover:translate-x-8 duration-300 group-hover:shadow-xl"
+				class="flex items-center justify-center w-10 h-10 text-white duration-300 transform opacity-50 lg:w-14 lg:h-14 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 group-hover:lg:translate-x-8 group-hover:shadow-xl"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20"
 					fill="currentColor"
-					class="h-6 w-6"
+					class="w-6 h-6"
 				>
 					<path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
 					<path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
@@ -35,13 +35,13 @@
 		</a>
 		<a href="#" class="group">
 			<div
-				class="flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-50 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 transform group-hover:translate-x-8 duration-300 group-hover:shadow-xl"
+				class="flex items-center justify-center w-10 h-10 text-white duration-300 transform opacity-50 lg:w-14 lg:h-14 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 group-hover:lg:translate-x-8 group-hover:shadow-xl"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20"
 					fill="currentColor"
-					class="h-6 w-6"
+					class="w-6 h-6"
 				>
 					<path
 						fill-rule="evenodd"
@@ -53,13 +53,13 @@
 		</a>
 		<a href="#" class="group">
 			<div
-				class="flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-50 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 transform group-hover:translate-x-8 duration-300 group-hover:shadow-xl"
+				class="flex items-center justify-center w-10 h-10 text-white duration-300 transform opacity-50 lg:w-14 lg:h-14 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-blue-800 group-hover:lg:translate-x-8 group-hover:shadow-xl"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20"
 					fill="currentColor"
-					class="h-6 w-6"
+					class="w-6 h-6"
 				>
 					<path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z" />
 					<path
